@@ -39,13 +39,18 @@ To run this project locally:
     npm install
 3. Create a .env file in the root directory and add your credentials:
    CLOUDINARY_CLOUD_NAME=your_cloud_name
-    CLOUDINARY_KEY=your_api_key
-    CLOUDINARY_SECRET=your_api_secret
-    MAPBOX_TOKEN=your_mapbox_token
-    MONGO_URL=your_mongo_connection_string
-    SESSION_SECRET=your_secret
 
-4. Start the application:
+   CLOUDINARY_KEY=your_api_key
+
+   CLOUDINARY_SECRET=your_api_secret
+
+   MAPBOX_TOKEN=your_mapbox_token
+
+   MONGO_URL=your_mongo_connection_string
+
+   SESSION_SECRET=your_secret
+
+5. Start the application:
    npm start
 
 The app will be available at http://localhost:3000.
